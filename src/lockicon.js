@@ -1,11 +1,11 @@
 import IconButton from '@material-ui/core/IconButton';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import LockOpenIcon from '@material-ui/icons/LockOpen';
 
 const Lock=()=>{
     var output=[];
     output.push(
     <IconButton color="primary">
-    < LockOutlinedIcon/>
+    < LockOpenIcon/>
     </IconButton>)
     return output;
 }
