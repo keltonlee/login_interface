@@ -1,3 +1,6 @@
+import { render } from "@testing-library/react"
+import { Component } from 'react'
+
 var back = {
     image: {
         backgroundImage: 'url(https://source.unsplash.com/random)',
@@ -7,8 +10,8 @@ var back = {
         backgroundPosition: 'center',
       },
   }
-  export default function backGround() {
-    return(
-        <div style={back}></div>
-    );
+  export default class backGround extends Component{
+    render(){
+      return (<div style={back}></div> );
+    }
   }

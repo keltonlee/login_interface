@@ -9,7 +9,6 @@ import backGround from './background';
 function App() {
   return(
     <div className="App">
-      <div>{ backGround() }</div>
       <div>{ Please() }</div>
       <div>{ Lock() }</div>
       <div>{ SignData() }</div>
